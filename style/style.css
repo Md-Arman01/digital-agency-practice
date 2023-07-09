@@ -41,7 +41,10 @@ nav{
     text-align: center;
     align-items: center;
     display: flex;
-    padding: 0 250px 0 350px;
+}
+.section-info{
+    width: 100%;
+    margin: auto;
 }
 .primary{
     color: red;
@@ -82,8 +85,11 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
+}
+.main-info{
+    width: 100%;
+    margin: auto;
 }
 .left-side{
     padding-left: 150px;
@@ -160,9 +166,7 @@ nav{
     color: black;
     border-radius: 5px;
 }
-.right-side{
-    padding-left: 220px;
-}
+
 .two-box{
     display: flex;
     gap: 15px;
