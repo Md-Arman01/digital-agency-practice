@@ -145,13 +145,20 @@ nav{
     gap: 100px;
     align-items: center;
     
+    
+    
 }
 .img-div{
     display: flex;
     align-items: center;
-    gap: 7px;
-    border-right: 2px solid red;
-    
+    gap: 7px;  
+}
+.btn-div{
+    height: 90px;
+    border-left: 2px solid red;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .icon-size{
@@ -198,10 +205,13 @@ nav{
     color: white;
 }
 .call-img-div{
+    height: 130px;
     display: flex;
     gap: 15px;
     justify-content: space-around;
     align-items: center;
+    border-right: 2px solid gray;
+    padding-right: 20px;
     
 }
 .btn-make{
@@ -238,6 +248,7 @@ nav{
 }
 .card-img{
     width: 100%;
+    border-radius:10px 10px 0 0 ;
 }
 .card{
     height: 420px;
@@ -295,4 +306,3 @@ nav{
     margin: auto;
     text-align: center;
 }
-
